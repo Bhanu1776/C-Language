@@ -1,0 +1,6 @@
+1) Win + V = To access Clipboard ..
+
+2) Win + D = To minimize all windows ..
+
+3) Shift + End = To select entire statement or Line ..
+   Shift + Home = To select Entire Text on Left hand side ..

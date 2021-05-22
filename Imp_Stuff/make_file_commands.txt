@@ -1,0 +1,22 @@
+#### Shortcuts to use in Terminal ####
+
+1) pwd = Print working directory (Current location defines )
+
+2) ls = List (Shows the list of present files in that specific folder)
+
+3) cd = change directory (To move to other folder) ex:- cd Downloads/
+   cd.. = to move back to previous folder ..
+
+4) mkdir = to create new folder. 
+
+5) rm = to delete files 
+   rm -rf = to delete folder ..
+
+6) touch = to create new files except "folders"
+
+7) mv = ex:- mv chap1.c 1chap.c .... (This cmd renames the file)
+   mv = ex:- mv chap1.c ./new_folder ... (chap1.c moved to other folder)
+   Therefore mv cmd is used for both rename and move ..
+
+8) cp = To copy files to other folder .. cp chap1.c ./new_folder/
+
