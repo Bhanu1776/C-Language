@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Bhanu Rama Sunka");
+    printf("Bhanu RamaSunka");
     return 0;
 }
