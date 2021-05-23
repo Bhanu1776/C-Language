@@ -1,0 +1,24 @@
+Chap 2 == Instructions and operators 
+
+Types of Instructions :- 
+1) Type of declaration instruction ..
+2) Arithimatic instructions .. Refer Notes :)
+3) Type Conversion .. IMP
+
+## Operator Precedence ##
+ 1) Refer Table from notes 
+
+## Operator associativity ##
+** When operators of equal priority are present in an expression, the tie is taken care of by associativity
+
+ x  *  y  /  z  =>  (x *  y) / z
+
+x  /  y  *  z  =>  (x / y) * z
+
+*, / follows left to right associativity.
+
+
+FOR REFERENCE 
+
+ Notes :- https://www.codewithharry.com/videos/c-tutorial-in-hindi-with-notes
+ Video(With Timestamp):- https://youtu.be/ZSPZob_1TOk?t=5534
