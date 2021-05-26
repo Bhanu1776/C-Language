@@ -19,7 +19,7 @@ int main()
     else if (b>c && b>d){
         printf("Your value of b is greater i.e %d", b);
     }
-    else if (c>b && c>d){
+    else if (c>d){
         printf("Your value of c is greater i.e %d",c);
     }
     else{
