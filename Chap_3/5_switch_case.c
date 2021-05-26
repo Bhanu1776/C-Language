@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int marks;
-    printf("Enter your marks: ");
+    printf("Enter your marks = ");
     scanf("%d", &marks);
     if (marks >= 0 && marks <= 100){
     switch(marks / 10){
