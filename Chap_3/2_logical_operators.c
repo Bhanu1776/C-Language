@@ -2,7 +2,7 @@
 
 // Totally depends on logic gates which was done in 11th !!
 /*     &&, ||, and ! are the three logical operators in C. 
-       These are read as “and”, ”or”, and “not”. They are used to provide logic to our c programs.  */
+       These can be read as “and”, ”or”, and “not”. They are used to provide logic to our c programs.  */
 
 #include<stdio.h>
 
