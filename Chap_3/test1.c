@@ -23,7 +23,7 @@ int main()
         printf("Your value of c is greater i.e %d",c);
     }
     else{
-        printf("The value of d is greater i.e %d", d);
+        printf("The value of d is greater  i.e %d", d);
     }
     return 0;
 }
