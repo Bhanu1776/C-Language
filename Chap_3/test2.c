@@ -12,7 +12,7 @@ int main()
     scanf("%d", &c);
     printf("Enter your Maths marks = ");
     scanf("%d", &m);
-    total=(p+c+m)/3;
+    total=(p+c+m)/3.0;
     if(total<=40 || p<=33 || c<=33 || m<=33 ){
         printf("You are 'fail' ur percentage is %f", total);
     }
