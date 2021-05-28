@@ -14,6 +14,6 @@ int main()
     for(int i=1;i<=n;i++){
         factorial *=i;
     }
-    printf("The factorials of your value n is %d",factorial);
+    printf("The factorial of your value n is %d",factorial);
     return 0;
 }
