@@ -4,7 +4,7 @@
 
 int main()
 {
-    printf("**** Multiplication table of 10 ****\n\n");
+    printf("**** Multiplication table of 10 ****\n\n ");
     for(int i=10;i;i--){
         printf("10 x %d = %d\n",i, 10*i);
     }
