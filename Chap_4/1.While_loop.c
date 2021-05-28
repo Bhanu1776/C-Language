@@ -1,3 +1,5 @@
+// Uses of loops = To cal factorials,multiplication tables,etc
+
 #include<stdio.h>
 
 int main()
