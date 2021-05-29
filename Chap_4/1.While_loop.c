@@ -1,4 +1,4 @@
-// Uses of loops = To cal factorials,multiplication tables,etc
+// Uses of loops = To cal factorials,multiplication tables, To generate guessed no. Game etc
 
 #include<stdio.h>
 
