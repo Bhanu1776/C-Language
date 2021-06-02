@@ -4,7 +4,6 @@ int main()
 {
     int a,b;
     printf("Enter value of a and b = ");
-    printf("Hello Buddies Whatsupp");
     scanf("%d %d", &a,&b );
     printf("Before swapping values of a is %d and b is %d\n", a,b);
     printf("Your temp value is = %d\n" , a=a+b);
