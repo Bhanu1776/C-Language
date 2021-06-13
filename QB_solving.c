@@ -20,23 +20,6 @@
 Flow chart draw by own !! */
 
 
-
-/* Q7 implement a C program to swap values of two
-      variables without using temporary variables. */
-
-#include<stdio.h>
-int main()
-{
-    int a=5, b=6;
-    a=a+b; //11
-    b=a-b; //5
-    a=a-b; //6
-    printf("a=%d , b=%d",a,b);
-    return 0;
-} 
-
-
-
 /* Q6 Implement an algorithm and flowchart to find the
       greatest of three integers given by the user.
  ALGO :-
@@ -54,6 +37,21 @@ Display b is the largest number.
 Else
 Display c is the greatest number.
 5. Stop */
+
+
+/* Q7 implement a C program to swap values of two
+      variables without using temporary variables. */
+
+#include<stdio.h>
+int main()
+{
+    int a=5, b=6;
+    a=a+b; //11
+    b=a-b; //5
+    a=a-b; //6
+    printf("a=%d , b=%d",a,b);
+    return 0;
+} 
 
 
 
@@ -227,3 +225,4 @@ int main()
   }
     return 0;
 }
+
