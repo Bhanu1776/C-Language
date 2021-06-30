@@ -15,5 +15,6 @@ int main()
 	scanf("%d",&n);
 	e=fact(n);
 	printf("\nFactorial=%d",e);
+	
 	return 0;
 }
