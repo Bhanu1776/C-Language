@@ -1,0 +1,29 @@
+ * Most Useful Vscode keyboard shortcuts To increase Productiviy *
+
+Ctrl + Shift + Alt + Down/Up == To copy paste specific line to next line .. Useful AF !!
+
+Alt + Up/Down == To move line of code updown .. Useful
+
+Ctrl + Alt + M == To stop code Run in terminal .. Useful
+
+Ctrl + Z == Undo
+Ctrl + Y == Redo ..
+
+Ctrl + Tab == To switch between Tabs ..
+
+Ctrl + Shift + k == Delete the current Line of code ..
+Ctrl + X == Delete the current line ..
+
+Ctrl + D == Add Selection To Next Find Match ..
+Ctrl + Shift + L == Multi cursor selection .. 
+
+Ctrl + F == Find 
+Ctrl + H == Replace
+
+Ctrl + K Ctrl + S == Vs code keyboard shortcuts ..
+
+Ctrl + U == Cursor Undo ..
+
+Ctrl + R == To Get Recent files list ..
+
+Ctrl + Shift + F == To Get whole code in Format 
