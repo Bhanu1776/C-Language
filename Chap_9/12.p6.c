@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-typedef struct complex {      //* typedef is used to create a custom name that replaces with structure name ..
+//* Write problem p5 structure using typedef keyword.
+typedef struct complex {      //* typedef is used to create a custom name that replaces with struct tagname ..
     int real;
     int img;
 }comp;
