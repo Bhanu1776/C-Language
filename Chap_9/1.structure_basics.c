@@ -17,7 +17,8 @@ int main()
     char k = 'c';
 
     struct employee e1;     // e1 is a variable assigned to a structure ..
-    e1.code = 100;          // "." is known as a member operator ..
+    e1.code = 100;          // "." is known as a member operator or dot operator .. 
+                            // It usually helps to access any member of a structure ..
     e1.salary = 150.002;
     strcpy (e1.name, "Bhanu");
 
