@@ -1,0 +1,102 @@
+//*           ####  SUMMARY 1 ####  
+                                                                //! THE MOST IMP !!
+1. h (left)       j (down)       k (up)       l (right)
+
+2. To exit :q! 
+   To save changes : wq
+
+3. To delete the character at the cursor type:             x
+   To delete word at the cursor type :                     dw
+   To delete from the cursor to the end of a line type :   d$
+   To delete a whole line type :                           dd
+   To put back text that has just been deleted, type :     p  
+
+4. To COPY : y
+   To PASTE : p
+   To Cut : dd and p for paste ..
+
+5. To inset : i
+   To append : a
+   To append at end : A
+   To type new line : o
+
+6. To get to end of word type : e
+
+7. To Enter into replace mode : R                                    
+   To replace letter type : r
+
+8. To Search word or character type : /<letter or word> <Enter>      eg:- /and 
+
+9. To Scroll page up type : Cntrl + y
+   To Scroll page down type : Cntrl + e 
+
+NOTE: Pressing <ESC> will place you in Normal mode or will cancel
+      an unwanted and partially completed command.
+
+
+//*           #### SUMMARY 2 #### 
+
+6. To move to the start of the line use a zero:  0
+   To move to the end of the line use : $
+   To move to the first line use : gg
+   To move to the end of the file : G
+   To move to the specific line type : <line no.>G    eg:- 25G
+
+A short list of motions:
+w - until the start of the next word, EXCLUDING its first character.  w == word
+e - to the end of the current word, INCLUDING the last character.     e == end of word
+$ - to the end of the line, INCLUDING the last character.             $ == end of line 
+
+7. To undo previous actions,       type:           u  (lowercase u)   === Undo 
+   To undo the undo's,                type:                    CTRL-R    === Redo
+   To undo all the changes on a line, type:  U  (capital U)
+
+5. The format for a change command is:
+   operator   [number]   motion
+   where:
+   operator - is what to do, such as  d  for delete
+   [number] - is an optional count to repeat the motion
+   motion   - moves over the text to operate on, such as  w (word),
+   $ (to the end of line), etc.
+
+4. To repeat a motion prepend it with a number:   2w
+
+
+//*         #### SUMMARY 3 ####
+
+ 
+3. The change operator allows you to change from the cursor to where the
+   motion takes you. 
+
+   eg. Type  ce  to change from the cursor to the end of the word, 
+   c$  to change to the end of a line.
+
+
+//*         #### SUMMARY 4 ####
+
+
+1. CTRL-G  displays your location in the file and the file status.
+
+
+
+//*         #### SUMMARY 5 ####
+
+1.  :!command  executes an external command.
+
+Some useful examples are:
+(Unix)
+:!ls            -  shows a directory listing.
+:!rm FILENAME   -  removes file FILENAME.
+
+2. :w FILENAME  writes the current Vim file to disk with name FILENAME.
+
+
+//*         #### SUMMARY 6 ####
+
+6. Typing ":set xxx" sets the option "xxx".  Some options are:
+'ic' 'ignorecase'       ignore upper/lower case when searching
+'is' 'incsearch'        show partial matches for a search phrase
+'hls' 'hlsearch'        highlight all matching phrases
+You can either use the long or the short option name.
+
+7. Prepend "no" to switch an option off:   :set noic
