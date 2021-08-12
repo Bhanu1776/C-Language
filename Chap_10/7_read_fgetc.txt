@@ -1,0 +1,1 @@
+This is the way to read every character at a single time ..
