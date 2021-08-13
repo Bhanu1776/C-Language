@@ -1,8 +1,12 @@
 #include<stdio.h>
 
+//* Files === The random access memory is volatile and its content is lost once the program terminates.
+//*           In order to persist the data forever, we use files.
+
 int main()
 {
-    FILE *ptr;
+    FILE *ptr;       // The “File” is a structure that needs to be created for opening the file. 
+                    // A file pointer is a pointer to this structure of the file.
     ptr = fopen("1_sample.txt","w");     // For writing to a file 
     ptr = fopen("1_sample.txt","r");    // For reading to a file 
     return 0;
