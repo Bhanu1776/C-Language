@@ -12,5 +12,15 @@ int main()
    2) rb = read in binary mode
    3) w = write only mode
    4) wb = write in binary mode 
-   5) a = append mode (inserting at the end of character) */
+   5) a = append mode (inserting at the end of character) 
+   6) w+ = write + read 
+   7) r+ = read + write ... update mode 
+   
+   Types Functions used for File I/O 
+   1) Character I/O  ===   fgetc, fputc, getc, putc 
+   2) String I/O === fgets, fputs
+   3) Integer I/O === getw, putw
+   4) Formatted I/O === fscanf, fprintf 
+   5) Record I/O === fread, fwrite 
+   */
 }
