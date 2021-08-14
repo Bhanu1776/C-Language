@@ -1,0 +1,30 @@
+//*           SOME USEFULL CHROME KEYBOARD SHORTCUTS 
+
+0) Ctrl + E === Open Goggle Search anywhere on the page ... USEFUL AF !!
+
+1) Ctrl + T === Open new tab and jump to it ..
+
+2) Ctrl + Shift + T === Reopen last closed tab, and jump to it ..   Useful 
+
+3) Ctrl + W === Close current tab ..  Useful AF 
+
+4) Ctrl + Tab === Switch To next tab ..
+   Ctrl + Shift + Tab === Switch to previous tab ..
+
+5) Ctrl + 1 to 8 === Jump to a specific tab ..
+
+6) Ctrl + 9 === Jump to last tab 
+
+7) Ctrl + D === Save current webpage for bookmark
+
+8) Ctrl + J === Downloads 
+
+9) Ctrl + H === History 
+
+10) Ctrl + Shift + O === Open bookmarks manager 
+    Ctrl + Shift + B === Show or hide bookmarks bar ..
+
+11) Spacebar === Scroll down 
+    Shift + Spacebar === Scroll up 
+
+12) F11 === Full screen mode ..
