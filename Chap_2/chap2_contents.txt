@@ -1,4 +1,4 @@
-Chap 2 == Instructions and operators 
+Chap 2 == Instructions and operators  
 
 Types of Instructions :- 
 1) Type of declaration instruction ..
