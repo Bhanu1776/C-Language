@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// String == String is an array of characters ..
+// String == String is an array of characters..
 
 int main()
 {
