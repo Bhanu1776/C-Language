@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 // Note :- Confusing chap, Read carefully !!
 int main()
 {
