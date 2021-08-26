@@ -4,7 +4,7 @@
 //* Structures === A structure in c is a collection of variables of different types under a single name..
 
 struct employee {
-    int code;               //  => this declares a new user-defined datatype
+    int code;                //  => this declares a new user-defined datatype
     float salary;
     char name[10];
 
