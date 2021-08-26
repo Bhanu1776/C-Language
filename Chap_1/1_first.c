@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("jhatu");
+    printf("God o wott");
     return 0;
 }
