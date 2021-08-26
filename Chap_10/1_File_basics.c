@@ -5,7 +5,7 @@
 
 int main()
 {
-    FILE *ptr;       // The “File” is a structure that needs to be created for opening the file. 
+    FILE *ptr;      // The “File” is a structure that needs to be created for opening the file. 
                     // A file pointer is a pointer to this structure of the file.
     ptr = fopen("1_sample.txt","w");     // For writing to a file 
     ptr = fopen("1_sample.txt","r");    // For reading to a file 
