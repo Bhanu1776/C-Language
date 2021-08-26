@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 // More than one function can be executed in a program ..
 // Function can be executed inside another function ..
 // Types of functions :-
