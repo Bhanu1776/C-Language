@@ -2,7 +2,7 @@
 
 int main()
 {
-    int marks[5];   // Array used to store similar elements
+    int marks[5];    // Array used to store similar elements
 
     printf("Enter the marks of student 1 = ");
     scanf("%d",&marks[0]);  // Always remember the Index number in C lang starts from 0 !!
