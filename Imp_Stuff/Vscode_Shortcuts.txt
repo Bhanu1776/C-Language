@@ -1,5 +1,7 @@
  * Most Useful Vscode keyboard shortcuts To increase Productiviy *
 
+Alt + z == To hide/unhide horizontal bar 
+
 Ctrl + Shift + Alt + Down/Up == To copy paste specific line to next line .. Useful AF !!
 
 Alt + Up/Down == To move line of code updown .. Useful
