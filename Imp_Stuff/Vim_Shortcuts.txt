@@ -2,21 +2,33 @@
                                                                 //! THE MOST IMP !!
 1. h (left)       j (down)       k (up)       l (right)
 
+H: To move top of the screen 
+L: To move bottom of the screen 
+M: To move between of the screen
+
+b: Jump back to start of words 
+ge: Jump back to end of words 
+
 2. To exit :q! 
    To save changes : wq
 
 3. To delete the character at the cursor type:             x
    To delete word at the cursor type :                     dw
-   To delete from the cursor to the end of a line type :   d$
+   To delete word under the cursor type :                  daw
+   To delete from the cursor to the end of a line type :   d$ or D(capital)
    To delete a whole line type :                           dd
+   To replace an exhisting word type :                ciw  
    To put back text that has just been deleted, type :     p  
 
 4. To COPY : y
+   To COPY whole line : yy
+   To COPY word under the cursor : yiw 
    To PASTE : p
    To Cut : dd and p for paste ..
 
 5. To inset : i
    To append : a
+   To append at the end of word : ea
    To append at end : A
    To type new line : o
 
@@ -24,23 +36,40 @@
 
 7. To Enter into replace mode : R                                    
    To replace letter type : r
+   To replace whole line : cc
 
 8. To Search word or character type : /<letter or word> <Enter>      eg:- /and 
 
 9. To Scroll page up type : Cntrl + y
    To Scroll page down type : Cntrl + e 
 
+10. Switch between tabs : gt (for forward) and gT (for reverse)
+
 NOTE: Pressing <ESC> will place you in Normal mode or will cancel
       an unwanted and partially completed command.
 
+//*           #### Visual Mode ####
+
+1. To start visual mode : v
+2. To move to other end of marked area : o
+3. To move to end of line : v$
+4. To move to start of line : v0 
+5. To mark a word : vaw 
+6. To mark a block () : vab 
+7. To mark a word under () : vib or vi( // Imp 
+8. To mark a word under {} : viB or vi{ 
+9. To get switch case selected text type : ~
 
 //*           #### SUMMARY 2 #### 
 
 6. To move to the start of the line use a zero:  0
+   To move to the start of non-black character of line : ^
    To move to the end of the line use : $
    To move to the first line use : gg
    To move to the end of the file : G
    To move to the specific line type : <line no.>G    eg:- 25G
+   To move to the next paragraph type : }
+   To move to the previous paragraph type : {
 
 A short list of motions:
 w - until the start of the next word, EXCLUDING its first character.  w == word
@@ -100,3 +129,5 @@ Some useful examples are:
 You can either use the long or the short option name.
 
 7. Prepend "no" to switch an option off:   :set noic
+
+Vim Shortucts Cheat Sheet : https://vim.rtorr.com/
