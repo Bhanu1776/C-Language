@@ -1,22 +1,162 @@
-#### Shortcuts to use in Terminal ####
+//! Basic Linux Commands
 
-1) pwd = Print working directory (Current location defines )
+//* Commands are basically an executable files which are stored in the system..
 
-2) ls = List (Shows the list of present files in that specific folder)
+pwd = Print working directory (Current location defines )
 
-3) cd = change directory (To move to other folder) ex:- cd Downloads/
-   cd.. = to move back to previous folder ..
+ls = List (Shows the list of present files in that specific folder)
+ls -a = To view the hidden files of that directory ..
+ls -R = Shows all the sub-directories ..
+ls -l = To see all the files with permissions 
 
-4) mkdir = to create new folder. 
+cd = change directory (To move to other folder) ex:- cd Downloads/
+cd.. = to move back to previous folder..
 
-5) rm = to delete files 
-   rm -rf = to delete folder ..
+mkdir = make directory (This cmd is used to create a new folder) 
 
-6) touch = to create new files except "folders"
+rmdir temp = remove directory (This usually remove the folder if it empty!)
 
-7) mv = ex:- mv chap1.c 1chap.c .... (This cmd renames the file)
-   mv = ex:- mv chap1.c ./new_folder ... (chap1.c moved to other folder)
-   Therefore mv cmd is used for both rename and move ..
+rm = to delete files (remove)
+rm -rf (directory_name) = to delete folder ..
 
-8) cp = To copy files to other folder .. cp chap1.c ./new_folder/
+touch = to create new files except "folders" ex:- touch bunny.txt
 
+mv = ex:- mv chap1.c 1chap.c .... (This cmd renames the file)
+mv = ex:- mv chap1.c ./new_folder ... (chap1.c moved to other folder)
+..Therefore mv cmd is used for both rename and move ..
+
+cp = To copy files to other folder .. cp chap1.c ./new_folder/
+
+
+whoami == This will show the current username
+
+where ls = where is the 'keyword' and in the place of 'ls' there can be any cmd like git,cd,chmod,etc..
+           This cmd usually print the location of executable file of that particular command
+
+man ls = 'man' is used to know the info of any particular command .. (manual entry)
+
+echo " "= It is used to print anything, under double quotes we can basically write anything that we wanted as an output
+ex :- echo "Bunny"
+
+* cat --> concatenate files and print on the standard output
+
+cat bunny.txt = cat command usually displays the content of that specified file .. (concatenate)
+cat > bunny.py = Now this will create a new file named bunny.py and we can write any content in that and by pressing ctrl+c or z we can end running process ..
+cat name.txt surname.txt > Details.txt == In this way we can merge two files into a new file ..
+
+cat bunny.txt | tr a-z A-Z = 'tr' used to translate characters .. Now this will print all content in upper cases 
+
+
+| = Pipe
+> = Redirection
+\ = Used to write two different commands without executing the first one ..
+'*' = wildcard
+
+df -m = displays the free disk space, -m is used to display in mb's
+
+head bunny.txt == This usually prints the first ten line of that file from beginning
+tail bunny.txt == This will print last ten line of that file from ending ..
+
+diff first.txt last.txt == diff usually compares the content present in both files line by line and the differences will be print..
+
+locate "*.txt" == This will locate all the files that has .txt extension
+
+find . == This will list out all the files in present directory 
+find .. == This will list out all the files in previous directory
+find . -type d == This will print only directories present in the working folder
+find . -type f -name "bunny.txt" == This will check wether specified file is present or not ..
+find . -type f -iname "*.txt" == iname is used to remove case-sensitive 
+find . -type f -mmin -20 == This will print all the files which were modified 20min ago..
+find . -type f -mmin +15 == This will print all the files which were modified more than 15min ago..
+
+
+**** Permissions ****
+ls -l bunny.txt = To see the permissions of that specific file 
+
+u --> user                        |    r --> read
+g --> group                       |    w --> write
+o --> others                      |    x --> execute
+
+4 --> read
+2 --> write
+1 --> execute
+
+7 --> rwx permissions
+0 --> No permissions
+
+777 --> This will give rwx permissions to everyone(u,g,o)..
+000 --> No permissions to anyone ..
+
+* chmod == change file modes or access control lists
+chmod u=rwx,g=rx,o=r bunny.txt   ... 
+OR
+chmod 754 bunny.txt
+
+* chown --> Change file owner and group 
+sudo chown root bunny.txt == Now this file can be access by root only.. 
+cat bunny.txt == After executing this cmd, user will end up with error like permission is denied..
+sudo bunny.txt == Now with the root permission user can be able to access the file..
+
+find . -perm 777  == This will list out all the files which has rwx permissions in current directory ..
+
+
+* grep --> Global regular expression print
+# It allows us to search text within a file in out system and its case sensitive ..
+
+-w --> If we wanted to find a complete word we use -w
+-i --> without case sensitive if we wanted to find any text we use -i
+-n --> If we wanted to find text with line number we use -n
+-r --> If we want to search recursively then we use -r
+-c --> This will show the text that appears in how many files(count)..
+# we can add up all this to find text .. like -win
+
+grep "bhanu" bunny.txt == If bhanu text is available it'll print 
+grep -i "Bhanu" bunny.txt 
+grep -n "bhanu" bunny.txt
+
+# If we don't bhanu text is present in which files, then we can simply write
+grep -win "bhanu" ./*.txt   == Now this will list out all the text files where bhanu word is present
+
+grep -wirc "bhanu" .
+
+history | grep "ls"  --> This will show how many times I used grep 
+
+* regex --> Regular expressions
+
+* alias --> In simple words, Alias is usually a method to create our own short commands for lengthy commands.. 
+
+! Useful terminal shortcuts 
+ctrl + a == To place cursor at the beginning of the line..
+ctrl + e == To place cursor at the end of the line..
+ctrl + w == To delete word from left
+ctrl + k == To clear text after the cursor 
+ctrl + u == Will clear everything in that line 
+ctrl + L == This will clear the upper terminal 
+ctrl + c == To force close the running process
+ctrl + d == To kill the terminal
+
+# suppose If I want to run 803th command from history 
+'!803' --> Ignore single quotes, This will run the 803th cmd from history
+'!grep' --> In this way we can get the last executed grep command ..
+
+ctrl + r == It is used to find commands from history
+
+//* ; --> semicolon is used to write more than one command in a single line ..
+git add bunny.txt;git commit -m "Hi";git push origin master
+
+
+sort bunny.txt --> This can be used to sort content in an alphabetical order ..
+sort -n bunny.txt --> sort content in numerical order ..
+sort -f bunny.txt --> Not case-sensitive sorting 
+
+
+wget <url> --> wget basically downloads any file without interacting 
+
+zip files.zip bunny.txt --> This will create one zip file named files.zip with bunny.txt compressed in it ..
+unzip files.zip --> This will release all the files which were present inside a zip ..
+
+
+hostname --> Used to print domain name of system 
+hostname -i --> Now this will print the ip address of my system ..
+
+netstat --> This will show up all the ports connected to my system
