@@ -19,3 +19,15 @@ int main() {
   }
   return 0;
 }
+
+
+//* IN PYTHON 
+
+// def is_leap(year):
+//     return year % 4 == 0 and (year % 400 == 0 or year % 100 != 0)
+
+// year=1990
+// print(is_leap(year))
+
+// Leap == True
+// Not Leap Year == False
